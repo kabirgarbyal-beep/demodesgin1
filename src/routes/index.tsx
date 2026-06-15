@@ -9,15 +9,16 @@ import { Testimonials } from "@/components/landing/Testimonials";
 import { Process } from "@/components/landing/Process";
 import { Stats } from "@/components/landing/Stats";
 import { CTA } from "@/components/landing/CTA";
+import { Visit } from "@/components/landing/Visit";
 import { Footer } from "@/components/landing/Footer";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Maison Noir — Luxury Interior Architecture Studio" },
-      { name: "description", content: "An interior architecture studio designing timeless residential, commercial and hospitality spaces across Europe and the Middle East." },
-      { property: "og:title", content: "Maison Noir — Luxury Interior Architecture" },
-      { property: "og:description", content: "Designing spaces that define luxury — quietly, since 2009." },
+      { title: "Maison Noir — Luxury Interior Architecture Studio · Dehradun" },
+      { name: "description", content: "A Himalayan interior architecture studio based in Dehradun, Uttarakhand — designing residential, hospitality and commercial interiors of quiet luxury across India." },
+      { property: "og:title", content: "Maison Noir — Luxury Interior Architecture · Dehradun" },
+      { property: "og:description", content: "Designing spaces of quiet luxury from the foothills of the Himalayas — since 2009." },
       { property: "og:type", content: "website" },
     ],
     links: [
@@ -42,6 +43,7 @@ function Index() {
       <Process />
       <Stats />
       <CTA />
+      <Visit />
       <Footer />
     </main>
   );

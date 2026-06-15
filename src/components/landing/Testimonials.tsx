@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { Reveal, MaskReveal } from "./Reveal";
 
 const items = [
-  { q: "They didn't decorate our home. They composed it — slowly, like a piece of music.", a: "Isabelle R.", r: "Private Client, Milan" },
-  { q: "Every material was chosen as if it would outlast us. It probably will.", a: "Mr. & Mrs. Hadid", r: "Residence, Dubai" },
-  { q: "A studio that listens before it draws. The result is something we couldn't have asked for, only recognized.", a: "Théo Lambert", r: "Hotel Brunelle, Paris" },
-  { q: "Beyond elegant — quietly intelligent. Each room rewards a second, a third visit.", a: "Anya Sørensen", r: "Penthouse, Copenhagen" },
+  { q: "They didn't decorate our home. They composed it — slowly, like a raga, until every room felt inevitable.", a: "Ishita R.", r: "Private Residence, Mussoorie" },
+  { q: "Every material was chosen as if it would outlast us. The Kumaoni stone, the brass — it probably will.", a: "Mr. & Mrs. Khanna", r: "Farmhouse, Dehradun" },
+  { q: "A studio that listens before it draws. The result is something we couldn't have asked for, only recognized.", a: "Vikram Mehta", r: "Boutique Hotel, Rishikesh" },
+  { q: "Beyond elegant — quietly intelligent. Each room rewards a second, a third visit.", a: "Anaïra Sen", r: "Penthouse, New Delhi" },
 ];
 
 export function Testimonials() {

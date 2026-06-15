@@ -17,7 +17,8 @@ export function About() {
           </div>
           <div className="absolute -bottom-6 -right-6 hidden border border-gold/30 bg-charcoal p-6 md:block">
             <span className="eyebrow text-gold">Founder</span>
-            <p className="mt-2 font-display text-2xl">Élise Marchand</p>
+            <p className="mt-2 font-display text-2xl">Ananya Rawat</p>
+            <p className="mt-1 text-xs uppercase tracking-[0.24em] text-ivory/50">Dehradun · est. 2009</p>
           </div>
         </div>
 
@@ -31,14 +32,14 @@ export function About() {
 
           <Reveal delay={0.2}>
             <p className="mt-10 max-w-xl text-base leading-[1.9] text-ivory/70 md:text-lg">
-              For more than fifteen years, Maison Noir has shaped homes, hotels and ateliers across Europe and the Middle East. We work slowly, intentionally — designing for the way light moves through a room, the way a hand rests on a surface, the way a space holds a life.
+              Founded in Dehradun in 2009, Maison Noir has shaped homes, boutique hotels and ateliers across the Himalayan foothills, Delhi, Mumbai and beyond. We work slowly, intentionally — designing for the way mountain light moves through a room, the way a hand rests on Kumaoni stone, the way a space holds a life.
             </p>
           </Reveal>
 
           <div className="mt-16 grid grid-cols-2 gap-10 border-t border-ivory/10 pt-10 md:grid-cols-3">
             {[
               ["Philosophy", "Less, but finer."],
-              ["Materials", "Sourced, never specified."],
+              ["Materials", "Local stone. Deodar. Brass."],
               ["Approach", "One house at a time."],
             ].map(([k, v], i) => (
               <Reveal key={k} delay={0.1 * i}>
