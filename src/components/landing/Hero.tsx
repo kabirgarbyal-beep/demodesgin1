@@ -54,7 +54,7 @@ export function Hero() {
           transition={{ duration: 1, delay: 0.3 }}
           className="eyebrow mb-8 text-ivory/70"
         >
-          — Interior Architecture Studio · Est. 2009
+          — Interior Architecture · Dehradun, India · Est. 2009
         </motion.span>
 
         <h1 className="font-display text-ivory text-balance text-[clamp(3rem,9vw,9.5rem)] leading-[0.95] tracking-tight max-w-[18ch]">
@@ -77,7 +77,7 @@ export function Hero() {
           transition={{ duration: 1, delay: 1.4 }}
           className="mt-10 max-w-xl text-base md:text-lg leading-relaxed text-ivory/75"
         >
-          Transforming interiors into timeless experiences through modern elegance and architectural storytelling.
+          A Himalayan studio shaping interiors of quiet luxury — drawn from the light, stone and stillness of the Doon Valley.
         </motion.p>
 
         <motion.div

@@ -8,12 +8,12 @@ import p5 from "@/assets/project-5.jpg";
 import p6 from "@/assets/project-6.jpg";
 
 const projects = [
-  { img: p1, title: "Ivory Residence", loc: "Milan, Italy", cat: "Residential", desc: "A composition of light, linen and warm oak — a refuge above the city.", span: "row-span-2" },
-  { img: p2, title: "Noir Atelier", loc: "Paris, France", cat: "Hospitality", desc: "Theatrical matte black volumes softened by hand-blown brass orbs.", span: "" },
-  { img: p3, title: "Travertine House", loc: "Lake Como", cat: "Residential", desc: "Monolithic stone carved by a single shaft of afternoon sun.", span: "row-span-2" },
-  { img: p4, title: "Maison Oak", loc: "Antwerp", cat: "Residential", desc: "A sculpted dining hall framed by deep charcoal and amber light.", span: "" },
-  { img: p5, title: "The Atrium", loc: "Dubai", cat: "Commercial", desc: "A double-height vestibule wrapped in honeyed travertine and brass.", span: "row-span-2" },
-  { img: p6, title: "Quiet Corner", loc: "Copenhagen", cat: "Styling", desc: "A small refuge — books, bouclé, and the long northern light.", span: "" },
+  { img: p1, title: "Deodar House", loc: "Mussoorie, Uttarakhand", cat: "Residential", desc: "A composition of mountain light, raw linen and warm Burmese teak — a refuge above the valley.", span: "row-span-2" },
+  { img: p2, title: "Noir Atelier", loc: "Rajpur Road, Dehradun", cat: "Hospitality", desc: "Theatrical matte black volumes softened by hand-spun brass orbs from Moradabad.", span: "" },
+  { img: p3, title: "Kumaoni Stone House", loc: "Nainital, Uttarakhand", cat: "Residential", desc: "Monolithic local stone carved by a single shaft of afternoon Himalayan sun.", span: "row-span-2" },
+  { img: p4, title: "Maison Sal", loc: "Rishikesh", cat: "Residential", desc: "A sculpted dining hall framed by deep charcoal and the amber light off the Ganges.", span: "" },
+  { img: p5, title: "The Atrium", loc: "New Delhi", cat: "Commercial", desc: "A double-height vestibule wrapped in honeyed Rajasthani travertine and antique brass.", span: "row-span-2" },
+  { img: p6, title: "Quiet Corner", loc: "Landour", cat: "Styling", desc: "A small refuge — books, raw silk, and the long blue light of the hills.", span: "" },
 ];
 
 export function Projects() {
