@@ -3,7 +3,7 @@ import { MaskReveal, Reveal } from "./Reveal";
 
 export function CTA() {
   return (
-    <section id="contact" className="relative overflow-hidden bg-charcoal px-6 py-32 text-ivory lg:px-16 lg:py-48">
+    <section id="contact" className="relative overflow-hidden bg-charcoal px-6 py-20 text-ivory lg:px-16 lg:py-28">
       <motion.div
         animate={{ x: [0, 80, -40, 0], y: [0, -60, 40, 0] }}
         transition={{ duration: 24, repeat: Infinity, ease: "easeInOut" }}
