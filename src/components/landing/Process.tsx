@@ -28,7 +28,16 @@ export function Process() {
 
         <div className="relative">
           <div className="absolute left-[28px] top-0 bottom-0 w-px bg-border md:left-1/2" />
-          <motion.div style={{ height: lineH }} className="absolute left-[28px] top-0 w-px bg-ink md:left-1/2" />
+          <motion.div
+            style={{ height: lineH, background: "linear-gradient(to bottom, transparent, var(--gold) 12%, var(--gold) 88%, transparent)", boxShadow: "0 0 12px 2px var(--gold), 0 0 28px 4px oklch(0.78 0.09 80 / 0.55)" }}
+            className="absolute left-[28px] top-0 w-[2px] md:left-1/2 md:-translate-x-[0.5px]"
+          />
+          <motion.div
+            style={{ height: lineH }}
+            className="pointer-events-none absolute left-[28px] top-0 w-[2px] md:left-1/2 md:-translate-x-[0.5px]"
+          >
+            <span className="absolute bottom-0 left-1/2 h-3 w-3 -translate-x-1/2 translate-y-1/2 rounded-full bg-gold" style={{ boxShadow: "0 0 18px 6px var(--gold), 0 0 40px 10px oklch(0.78 0.09 80 / 0.6)" }} />
+          </motion.div>
 
           <ul className="space-y-24">
             {steps.map((s, i) => (
