@@ -1,0 +1,20 @@
+# Maison Noir
+
+> A luxury interior architecture studio based in Dehradun, Uttarakhand — designing residential, hospitality, and commercial interiors of quiet luxury across the Himalayan foothills and India since 2009.
+
+Maison Noir is led by founder Ananya Rawat. The studio is known for slow, intentional design rooted in local materials — Kumaoni stone, deodar wood, and brass — and a restrained editorial aesthetic shaped by mountain light.
+
+## Pages
+- [Home](/): Studio overview, featured projects, services, process, and visit information.
+
+## Services
+- Luxury Residential Design
+- Modern Commercial Spaces
+- Hospitality & Boutique Hotels
+- Interior Architecture & Renovation
+
+## Studio
+- Location: 42 Rajpur Road, Hathibarkala Estate, Dehradun, Uttarakhand 248001, India
+- Hours: Mon–Fri 10:00–19:00 IST · Sat by appointment · Sun closed
+- Email: studio@maisonnoir.in
+- Founded: 2009
